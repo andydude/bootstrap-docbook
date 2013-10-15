@@ -1,0 +1,50 @@
+<article xmlns="http://docbook.org/ns/docbook">
+  <info>
+    <title>Docbook to Bootstrap manual</title>
+  </info>
+  <para>
+    This manual describes the command-line tool <code>docbook2bootstrap</code>.
+  </para>
+  <section>
+    <info>
+      <title>Introduction</title>
+    </info>
+    <para>
+      Lorem ipsum.
+    </para>
+  </section>
+  <section>
+    <info>
+      <title>Analysis</title>
+    </info>
+    <para>
+      Lorem ipsum.
+    </para>
+    <para>
+      <methodsynopsis>
+        <modifier>public</modifier>
+        <modifier>struct</modifier>
+        <type>tz_struct</type>
+        <methodname>get_time_zone</methodname>
+        <void/>
+      </methodsynopsis>
+    </para>
+  </section>
+  <section>
+    <info>
+      <title>Synthesis</title>
+    </info>
+    <para>
+      Lorem ipsum.
+    </para>
+  </section>
+  <section>
+    <info>
+      <title>Conclusion</title>
+    </info>
+    <para>
+      Lorem ipsum.
+    </para>
+  </section>
+</article>
+

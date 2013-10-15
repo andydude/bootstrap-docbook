@@ -1,0 +1,25 @@
+<article xmlns="http://docbook.org/ns/docbook">
+  <info>
+    <title>Complex Example</title>
+  </info>
+  <section>
+    <info>
+      <title>Introduction</title>
+    </info>
+  </section>
+  <section>
+    <info>
+      <title>Analysis</title>
+    </info>
+  </section>
+  <section>
+    <info>
+      <title>Synthesis</title>
+    </info>
+  </section>
+  <section>
+    <info>
+      <title>Conclusion</title>
+    </info>
+  </section>
+</article>

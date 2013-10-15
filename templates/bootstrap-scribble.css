@@ -1,0 +1,108 @@
+body {
+  line-height: 2;
+  margin-top: 47px;
+}
+
+kbd, samp {
+  padding: 2px 4px;
+  font-size: 90%;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+kbd {
+  color: #468847;
+  background-color: #f2f7f2;
+}
+samp {
+  color: #3a87ad;
+  background-color: #f2f4f9;
+}
+
+h2 {
+  padding-top: 70px;
+}
+
+/* Temporary fix until we convert to code/var/samp/kbd */
+.stt {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+/*
+ * Bootstrap-Scribble .main
+ */
+.main {
+  position: relative;
+  top: 0px;
+}
+
+/*
+ * Bootstrap-Scribble .sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  background-color: #f8f8f8;
+}
+/*
+.sidebar ol li {
+  display: list-item;
+  list-style-type: decimal;
+}
+*/
+.sidebar li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* All levels of nav */
+.sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e7e7e7;
+}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: #3276b1;
+  background-color: transparent;
+}
+.sidebar .nav .nav {
+  display: none;
+}
+.sidebar .nav .active .nav {
+  display: block;
+}
+/* Second level */
+.sidebar .nav .nav > li > a {
+  padding-left: 30px;
+}
+/* Third level */
+.sidebar .nav .nav .nav > li > a {
+  padding-left: 50px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 167.5px;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar {
+    width: 212.5px;
+  }
+}
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 252.5px;
+  }
+}
